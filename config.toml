@@ -9,7 +9,6 @@ theme = "hugo-coder"
     keywords = "devops,blog,developer,personal"
     info = "DevOps Conjurer"
     avatarurl = "images/avatar.jpg"
-    footercontent = "© 2019 · Voislav Vasiljevski, Prague"
 
 [taxonomies]
     series = "series"
