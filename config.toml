@@ -1,15 +1,15 @@
-baseurl = "https://voioo.gitlab.io"
-title = "johndoe"
+baseurl = "https://thelazydevops.xyz"
+title = "The Lazy Devops Engineer"
 
 theme = "hugo-coder"
 
 [params]
-    author = "John Doe"
-    description = "John Doe's personal website"
-    keywords = "blog,developer,personal"
-    info = "Full Stack Magician"
+    author = "Voislav Vasiljevski"
+    description = "personal website"
+    keywords = "devops,blog,developer,personal"
+    info = "DevOps Conjurer"
     avatarurl = "images/avatar.jpg"
-    footercontent = "Enter a text here."
+    footercontent = "© 2019 · Voislav Vasiljevski, Prague"
 
 [taxonomies]
     series = "series"
