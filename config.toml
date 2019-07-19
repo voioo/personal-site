@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://www.thelazydevops.xyz"
 title = "The Lazy Devops Conjurer"
 
 theme = "hugo-coder"
