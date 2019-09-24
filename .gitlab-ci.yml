@@ -5,8 +5,7 @@ variables:
 
 pages:
   script:
-  - hugo --baseURL="https://thelazydevops.xyz" && gzip -k -6 $(find public -type f)
-  - hugo --baseURL="https://voioo.cz" && gzip -k -6 $(find public -type f)
+  - hugo && gzip -k -6 $(find public -type f)
   artifacts:
     paths:
     - public
