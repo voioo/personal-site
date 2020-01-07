@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://thelazydevops.xyz"
 title   = "Voislav Vasiljevski"
 
 DefaultContentLanguage = "en"
@@ -35,7 +35,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/posts/:title/"
 
 [author]
   name = "Voislav Vasiljevski"
@@ -45,7 +45,7 @@ disableHugoGeneratorInject = false
 
 [taxonomies]
   tag      = "tags"
-  category = ""
+  category = "categories"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -54,8 +54,8 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Nice theme for homepages and blogs"
-  keywords = ""
+  description = "Writing some tutorials, ideas, containers, Linux, Docker ..."
+  keywords = "personal,blog,voislav,vasiljevski,lazydevops,containers,tutorials,guides"
   images = [""]
 
   homeSubtitle = "Google Search expert. Lazy-walking towards the DevOps world"
@@ -91,8 +91,8 @@ disableHugoGeneratorInject = false
     url  = "mailto:voislav@voioo.cz"
 
   [[params.social]]
-    name = "github"
-    url  = "https://github.com/voioo"
+    name = "gitlab"
+    url  = "https://gitlab.com/voioo"
 
   [[params.social]]
     name = "linkedin"
@@ -104,17 +104,8 @@ disableHugoGeneratorInject = false
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.fr]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 2
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name       = "About Me"
-    url        = "/about"
-  [[menu.main]]
     identifier = "posts"
-    name       = "Posts"
-    url        = "/posts"
+    name       = "Blog"
+    url        = "/posts/"
