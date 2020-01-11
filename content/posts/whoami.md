@@ -8,7 +8,7 @@ tags:
   - personal
 ---
 
-I've started my journey into IT as a level 1 tech support for a telecommunications company while I was pursuing a Bachelors's degree in Computer Science from the Faculty of Computer Science and Engineering. At the moment, I am working for NCR Corporation in Prague as a DevOps Engineer.
+I've started my journey into IT as a level 1 tech support for a telecommunications company while I was pursuing a Bachelors's degree in Computer Science from the [Faculty of Computer Science and Engineering](https://www.finki.ukim.mk/en). At the moment, I am working for [NCR Corporation](https://www.ncr.com) in Prague as a DevOps Engineer.
 
 I am interested in information technology – programming, cloud computing, software architecture, enterprise architecture as well as data management and information management.
 
